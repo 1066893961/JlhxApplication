@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JlhxApplication</string>
+
+    <string name="cancel">取消</string>
+    <string name="complete">完成</string>
+    <string name="sure">确定</string>
+    <string name="homepage">首页</string>
+    <string name="grab_single">抢单</string>
+    <string name="order">订单</string>
+    <string name="my">我的</string>
+
+    <string name="confirm_exit_app">再按一次返回退出应用</string>
+
+</resources>
