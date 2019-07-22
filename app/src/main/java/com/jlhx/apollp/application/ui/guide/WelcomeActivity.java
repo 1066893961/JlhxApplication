@@ -52,7 +52,7 @@ public class WelcomeActivity extends BaseActivity {
         runnable = new Runnable() {
             @Override
             public void run() {
-               GuideActivity.startGuidActivity(getApplicationContext());
+               GuideActivity.startGuidActivity(mActivity);
                finish();
             }
         };
