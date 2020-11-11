@@ -34,12 +34,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <!-- android:theme="@style/WelcomeEntranceActionBarTheme"-->
+
         <activity
-            android:name=".ui.guide.WelcomeActivity"
+            android:name=".ui.MainActivity"
             android:configChanges="keyboardHidden|orientation"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
-            android:theme="@style/WelcomeEntranceActionBarTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,10 +59,10 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity
-            android:name=".ui.MainActivity"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+<!--        <activity-->
+<!--            android:name=".ui.MainActivity"-->
+<!--            android:launchMode="singleTop"-->
+<!--            android:screenOrientation="portrait" />-->
         <activity
             android:name=".ui.guide.GuideActivity"
             android:screenOrientation="portrait"

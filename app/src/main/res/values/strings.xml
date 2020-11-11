@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">JlhxApplication</string>
+    <string name="app_name">支付宝对接</string>
 
     <string name="cancel">取消</string>
     <string name="complete">完成</string>

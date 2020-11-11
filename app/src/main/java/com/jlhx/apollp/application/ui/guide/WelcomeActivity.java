@@ -9,6 +9,7 @@ import android.view.View;
 import com.jlhx.apollp.application.R;
 import com.jlhx.apollp.application.base.BaseActivity;
 import com.jlhx.apollp.application.bean.PushMessageBean;
+import com.jlhx.apollp.application.ui.MainActivity;
 
 public class WelcomeActivity extends BaseActivity {
     Runnable runnable;
@@ -52,7 +53,8 @@ public class WelcomeActivity extends BaseActivity {
         runnable = new Runnable() {
             @Override
             public void run() {
-               GuideActivity.startGuidActivity(mActivity);
+//               GuideActivity.startGuidActivity(mActivity);
+                MainActivity.start(WelcomeActivity.this);
                finish();
             }
         };

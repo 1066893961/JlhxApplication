@@ -114,9 +114,9 @@ public class MainActivity extends BaseActivity implements TabDynamicLayoutView.O
     protected void initView(Bundle savedInstanceState) {
         List<TabLayoutInfo> list = new ArrayList<>();
         list.add(new TabLayoutInfo(R.drawable.homepage_tab_workbench, R.string.homepage, GlobalKeyContans.MAIN_HOMEPAGE_INDEX));
-        list.add(new TabLayoutInfo(R.drawable.homepage_tab_garb_single, R.string.grab_single, GlobalKeyContans.MAIN_SINGLE_INDEX));
-        list.add(new TabLayoutInfo(R.drawable.homepage_tab_order, R.string.order, GlobalKeyContans.MAIN_ORDER_INDEX));
-        list.add(new TabLayoutInfo(R.drawable.homepage_tab_my, R.string.my, GlobalKeyContans.MAIN_MY_INDEX));
+//        list.add(new TabLayoutInfo(R.drawable.homepage_tab_garb_single, R.string.grab_single, GlobalKeyContans.MAIN_SINGLE_INDEX));
+//        list.add(new TabLayoutInfo(R.drawable.homepage_tab_order, R.string.order, GlobalKeyContans.MAIN_ORDER_INDEX));
+//        list.add(new TabLayoutInfo(R.drawable.homepage_tab_my, R.string.my, GlobalKeyContans.MAIN_MY_INDEX));
         mDynamicTabLayout.setTabList(list);
     }
 
@@ -165,15 +165,15 @@ public class MainActivity extends BaseActivity implements TabDynamicLayoutView.O
         if (null != mHomePageFragment) {
             transaction.hide(mHomePageFragment);
         }
-        if (null != mGrabSingleFragment) {
-            transaction.hide(mGrabSingleFragment);
-        }
-        if (null != mOrderFragment) {
-            transaction.hide(mOrderFragment);
-        }
-        if (null != mPersonInfoFragment) {
-            transaction.hide(mPersonInfoFragment);
-        }
+//        if (null != mGrabSingleFragment) {
+//            transaction.hide(mGrabSingleFragment);
+//        }
+//        if (null != mOrderFragment) {
+//            transaction.hide(mOrderFragment);
+//        }
+//        if (null != mPersonInfoFragment) {
+//            transaction.hide(mPersonInfoFragment);
+//        }
     }
 
 
@@ -223,36 +223,36 @@ public class MainActivity extends BaseActivity implements TabDynamicLayoutView.O
                 }
                 mImmersionBar.statusBarDarkFont(true).init();//深色文字
                 break;
-            case GlobalKeyContans.MAIN_SINGLE_INDEX:
-                if (null == mGrabSingleFragment) {
-                    mGrabSingleFragment = GrabSingleFragment.newInstance();
-                    transaction.add(R.id.container, mGrabSingleFragment);
-                } else {
-                    transaction.show(mGrabSingleFragment);
-                }
-                mImmersionBar.statusBarDarkFont(true).init(); //深色文字
-
-                break;
-            case GlobalKeyContans.MAIN_ORDER_INDEX:
-                if (null == mOrderFragment) {
-                    mOrderFragment = OrderFragment.newInstance();
-                    transaction.add(R.id.container, mOrderFragment);
-                } else {
-                    transaction.show(mOrderFragment);
-                }
-                mImmersionBar.statusBarDarkFont(true).init(); //深色文字
-
-                break;
-            case GlobalKeyContans.MAIN_MY_INDEX:
-                if (null == mPersonInfoFragment) {
-                    mPersonInfoFragment = PersonInfoFragment.newInstance();
-                    transaction.add(R.id.container, mPersonInfoFragment);
-                } else {
-                    transaction.show(mPersonInfoFragment);
-                }
-                mImmersionBar.statusBarDarkFont(true).init();//深色文字
-
-                break;
+//            case GlobalKeyContans.MAIN_SINGLE_INDEX:
+//                if (null == mGrabSingleFragment) {
+//                    mGrabSingleFragment = GrabSingleFragment.newInstance();
+//                    transaction.add(R.id.container, mGrabSingleFragment);
+//                } else {
+//                    transaction.show(mGrabSingleFragment);
+//                }
+//                mImmersionBar.statusBarDarkFont(true).init(); //深色文字
+//
+//                break;
+//            case GlobalKeyContans.MAIN_ORDER_INDEX:
+//                if (null == mOrderFragment) {
+//                    mOrderFragment = OrderFragment.newInstance();
+//                    transaction.add(R.id.container, mOrderFragment);
+//                } else {
+//                    transaction.show(mOrderFragment);
+//                }
+//                mImmersionBar.statusBarDarkFont(true).init(); //深色文字
+//
+//                break;
+//            case GlobalKeyContans.MAIN_MY_INDEX:
+//                if (null == mPersonInfoFragment) {
+//                    mPersonInfoFragment = PersonInfoFragment.newInstance();
+//                    transaction.add(R.id.container, mPersonInfoFragment);
+//                } else {
+//                    transaction.show(mPersonInfoFragment);
+//                }
+//                mImmersionBar.statusBarDarkFont(true).init();//深色文字
+//
+//                break;
 
         }
 
