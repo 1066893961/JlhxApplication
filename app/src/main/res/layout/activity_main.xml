@@ -23,7 +23,7 @@
             android:layout_height="1px"
             android:background="@color/color_dddddd" />
 
-        <com.jlhx.apollp.application.views.TabDynamicLayoutView
+        <com.jlhx.payroll.application.views.TabDynamicLayoutView
             android:id="@+id/tab_dynamic_layout"
             android:layout_width="match_parent"
             android:layout_height="49dp"

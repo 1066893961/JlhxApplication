@@ -9,6 +9,9 @@
     <!--状态栏颜色-->
     <color name="status_bar_gray_color">#ffb3b3b3</color>
     <color name="status_bar_red_color">#ffDA1900</color><!--真用到了，应该屏蔽掉-->
+    <color name="app_activity_bg">#fff6f8fa</color><!--项目整体的背景色-->
+    <color name="dirver_line_color">#ffedeff4</color><!--列表分割线色值-->
+    <color name="new_driver_line">#ffe3e5ea</color><!--列表分割线色值-->
     <!--状态栏颜色-->
     <!--底部4个tab按钮颜色-->
     <color name="homepage_tab_selected_color">#436edc</color>
@@ -38,6 +41,10 @@
     <color name="color_edeef5">#edeef5</color><!--分隔线颜色-->
     <color name="color_0f63a4">#0f63a4</color>
     <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_39425f">#39425f</color>
+    <color name="color_868da7">#868da7</color>
+    <color name="color_4d39425f">#4d39425f</color>
+    <color name="color_ff39425f">#ff39425f</color>
     <color name="color_406BE1">#406BE1</color>  <!--我的页面圆圈蓝色文字-->
     <color name="color_847bf6">#847bf6</color>  <!--按钮渐变开始颜色,enable-->
     <color name="color_4362ea">#4362ea</color>  <!--按钮渐变结束颜色,unable-->
@@ -63,6 +70,7 @@
     <color name="color_BBBBBB">#BBBBBB</color>
     <color name="color_DA1900">#DA1900</color>
     <color name="color_f27979">#f27979</color>
+    <color name="color_979db4">#979db4</color>
     <color name="color_f2f9fb">#f2f9fb</color>
     <color name="color_e8f0fa">#e8f0fa</color>
     <color name="color_0d8274">#0d8274</color>
@@ -83,6 +91,7 @@
     <color name="color_F10802">#F10802</color>
     <color name="color_8299d5">#8299d5</color>
     <color name="color_FF3021">#FF3021</color>
+    <color name="color_FF3b30">#FF3b30</color>
     <color name="color_c4c4c4">#c4c4c4</color>
     <color name="color_4c4c4c">#4c4c4c</color>
     <color name="color_7c7c7c">#7c7c7c</color>
@@ -106,6 +115,12 @@
     <color name="color_4B89FA">#4B89FA</color><!--背景蓝色-->
     <color name="color_F7F7F8">#F7F7F8</color><!--统一背景色-->
     <color name="color_4B88F9">#4B88F9</color>
+    <color name="color_0076ff">#0076ff</color>
+    <color name="color_3fc84a">#3fc84a</color>
+    <color name="color_ff6c63">#ff6c63</color>
+    <color name="color_e3e5ea">#e3e5ea</color>
+    <color name="color_007aff">#007aff</color>
+    <color name="color_bbbfca">#bbbfca</color>
     <color name="ic_launcher_background">#3998F6</color>
 
     <color name="color_3caeb5">#3caeb5</color>
@@ -116,10 +131,12 @@
     <color name="color_dae0e6">#dae0e6</color>
     <color name="color_dae4f4">#dae4f4</color>
     <color name="color_0B5E96">#0B5E96</color>
+    <color name="color_030303">#030303</color>
     <color name="color_f66d61">#f66d61</color>
     <color name="color_0099CC">#0099CC</color>
     <color name="color_CC7DC0">#CC7DC0</color>
     <color name="color_F98562">#F98562</color>
+    <color name="color_cfd1d6">#cfd1d6</color>
     <color name="color_C9C9C9">#C9C9C9</color>
     <color name="color_0098CB">#0098CB</color>
     <color name="color_666666">#666666</color>
@@ -145,6 +162,8 @@
     <color name="color_63BEC4">#63bec4</color>
     <color name="color_309ADA">#309ada</color>
     <color name="color_35AEB6">#35AEB6</color>
+    <color name="color_ccffffff">#ccffffff</color>
+    <color name="color_4dffffff">#4dffffff</color>
     <color name="color_448aca">#448aca</color>
     <color name="color_6273b3">#6273b3</color>
     <color name="color_4786fe">#4786fe</color>
@@ -186,5 +205,6 @@
     <color name="color_72AF2D">#72AF2D</color>
     <color name="color_354056">#354056</color>
     <color name="color_969aa2">#969aa2</color><!--验证码页，已绑定手机号-->
-
+    <color name="default_shadow_color">#2a000000</color>
+    <color name="default_shadowback_color">#fff</color>
 </resources>

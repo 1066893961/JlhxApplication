@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jlhx.apollp.application">
+    package="com.jlhx.payroll.application">
 
     <!-- <permission
          android:name="com.kd.huiju.permission.JPUSH_MESSAGE"
@@ -27,20 +27,20 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:name=".JlhxApplication"
+        android:name="com.jlhx.payroll.application.JlhxApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <!-- android:theme="@style/WelcomeEntranceActionBarTheme"-->
 
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.guide.WelcomeActivity"
             android:configChanges="keyboardHidden|orientation"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
+            android:theme="@style/WelcomeEntranceActionBarTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,7 +51,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.jlhx.apollp.application.fileProvider"
+            android:authorities="com.jlhx.payroll.application.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -59,17 +59,20 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-<!--        <activity-->
-<!--            android:name=".ui.MainActivity"-->
-<!--            android:launchMode="singleTop"-->
-<!--            android:screenOrientation="portrait" />-->
         <activity
-            android:name=".ui.guide.GuideActivity"
+            android:name=".ui.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jlhx.payroll.application.ui.guide.GuideActivity"
             android:screenOrientation="portrait"
             android:theme="@style/FullScreenTheme" />
 
         <activity
-            android:name=".login.activity.LoginActivity"
+            android:name=".ui.login.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jlhx.payroll.application.base.WebViewActivity"
             android:screenOrientation="portrait" />
     </application>
 
